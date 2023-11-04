@@ -1,0 +1,16 @@
+pipeline
+{
+  agent {    
+	docker { image 'node:16-alphine' }  
+   }
+  stages
+ {
+    stage("checking the node version")
+    {  
+      steps
+      {
+       bat 'node --version'
+      }
+    }
+ }
+}  
