@@ -9,7 +9,7 @@ pipeline
     {  
       steps
       {
-       bat 'node --version'
+       sh 'node --version'
       }
     }
  }
