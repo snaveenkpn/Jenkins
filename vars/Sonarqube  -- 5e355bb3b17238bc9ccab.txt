@@ -1,3 +1,0 @@
-Sonarqube  --> 5e355bb3b17238bc9ccab57f78f2c7127f7200a7
-
-github -->  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
